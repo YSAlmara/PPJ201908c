@@ -1,0 +1,16 @@
+// Ejercicio 1: convertir texto a número
+var x= prompt ("Ingrese un numero:");
+var y= prompt ("Ingrese un numero:");
+
+var numerox= parseInt (x); // parse int entero
+var numeroy=
+console.log ("Prueba de escritorio: ");
+document.write ("Prueba de escritorio: ");
+
+console.log ("X: "+x);
+document.write ("X: +x");
+console.log("Y "+y);
+document.write ("Y:" +y);
+
+console.log ("numero X: "+ numero x);
+document.write ("numero X: + numero x");
