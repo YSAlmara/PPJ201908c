@@ -1,0 +1,78 @@
+<html>
+
+<head>
+</head>
+
+
+<body>
+
+<script>
+
+var mostrado= "false";
+var UsuarioPermiteVer= "true";
+
+//Prueba de escritorio 3
+
+document.write("Clase3 ");
+document.write("Ejemplos AND && y OR");
+console.log ("Clase3");
+console.log("Ejemplos AND && y OR");
+
+var mostrado= prompt('Ingrese un valor boleano:');
+var UsuarioPermiteVer= prompt('Ingrese un valor boleano');
+
+	if (!mostrado && UsuarioPermiteVer) {
+		alert ("Es la primera vez que se muestra el mensaje");
+	}
+
+	//Estructura if...else
+
+	var edad= 18;
+
+	if (edad >= 18){
+		alert('Eres mayor de edad.');
+	} else {
+		alert ("Todav&iacute;a eres menor.")
+}
+
+	var nombre= "";
+
+	if (nombre == ""){
+		alert("No me has dicho tu nombre");
+	} else { 
+		alert("Hemos guardado tu nombre");
+}
+
+
+	var numero = prompt ("introduce un numero y se mostrara su factorial");
+    var resultado = 1;
+
+	for (var i=1; i<=numero; i++) {
+  resultado *= i;
+}
+alert (resultado);
+
+	var dias= ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+
+  for (i in dias) {
+
+alert (dias [i]);
+}
+
+  var mensaje= "Hola, estoy dentro de un bucle";
+
+	for (var i = 0; i < 5; i++) {
+// la condición se evalua como verdadera
+alert(mensaje);
+}
+  var dias= ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+
+	for (var i=0; i<7; i++) {
+alert (dias[i]);
+}
+</script>
+  
+</body>
+
+
+</html>
