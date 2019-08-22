@@ -1,0 +1,60 @@
+<html>
+<head>
+
+<title>Clase 5 Clase final y taller</title>
+
+	<script>
+
+ alert( "Desde el HEAD: " + document.body ); 
+
+	</script> >
+
+</head>
+
+
+<body>
+
+	<p> 
+Hola
+	</p>
+ 
+ 	<p>
+Como   
+ 	</p>
+
+	<p>
+Estas
+	</p>
+	
+	<p>
+Chau
+	</p>
+	
+<script>
+
+alert("Desde el BODY "+ document.body);
+
+var parrafos= document.getElementsByTagName("p");
+console.log(parrafos);
+document.write(parrafos);
+
+var primerParrafo = parrafos[0];
+
+for (var i=0; i<parrafos.length; i++){
+var parrafo = parrafos [i];
+console.log(parrafo);
+document.write(parrafo);
+} 
+
+
+
+console.log(primerParrafo);
+document.write(primerParrafo);
+
+</script> >
+
+
+
+
+</body>
+</html>
