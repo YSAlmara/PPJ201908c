@@ -1,0 +1,54 @@
+<html>
+
+<head>
+</head>
+
+
+<body>
+
+	<script>
+
+  var palabra1= "Hola gentes";
+  var palabra2= "Estamos programando en JS";
+  var numero= 23.09;
+  var boleano= true;
+  var boleana= false;
+
+  if (window.console){
+
+// Muestro por pantalla
+	document.write ("<h1> Ejemplos de C&oacute;digo JS</h1>");
+
+
+//Mostrar por consola
+ 	console.log("Este es un mensaje de consola"); //Ejemplo de mensaje predeterminado
+	console.error (palabra1); //Ejemplo de mensaje de error
+	console.warn(palabra2); //Ejemplo de mensaje de advertencia
+	console.info (numero); //Ejemplo de mensaje de información
+    console.info (boleano);
+    console.error (boleana);
+
+//Muestro por pantalla las variables. 
+
+document.write('la variable palabra1 vale: '+palabra1+'<br>');
+document.write('la variable palabra2 vale: '+palabra2+'<br>');
+document.write("la variable numero vale: "+numero+'<br>');
+document.write("la variable boleano vale: "+boleano+'<br>');
+document.write("la variable boleana vale: "+boleana+'<br>');
+
+function inialert() {
+	alert ('Esta es una ventana emergente');
+}
+
+alert ("ESTA ES OTRA VENTANA");
+}
+
+
+	</script>
+
+
+  
+</body>
+
+
+</html>
