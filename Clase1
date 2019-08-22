@@ -4,21 +4,8 @@
 
 <body>
 
-	<script>
-
-// Muestro por pantalla
-	document.write ("<h1> Ejemplos de C&oacute;digo JS</h1>");
-
-
-//Mostrar por consola
- 	console.log("Ejemplo de mensaje predeterminado");
-	//console.error ("Ejemplo de mensaje de error");
-	console.warn("Ejemplo de mensaje de advertencia");
-	console.info ("Ejemplo de mensaje de información");
-
-  alert ("Hola!"); // Esto es una alerta. 
-
-	</script>
+<script>
+</script>
 
 
   <a href="javascript:inialert();">Probar alerta</a><br>
